@@ -1,0 +1,19 @@
+Column Name,Description,Data Kind,Total Rows,Total Nulls,Total Distinct,Data_Avaliable,Data Availability(Perc.),Data Missing(Perc.),top,freq,first,last,Average,Standard Deviation,Minimum Value,Maximum Value
+end_lat,Latitude of Destination,numeric,5667986,4617,440967,5663369,100,0,-,-,-,-,41.90114472,0.046340697,41.39,42.16811567
+end_lng,Longitude of Destination,numeric,5667986,4617,401669,5663369,100,0,-,-,-,-,-87.64635463,0.029067807,-88.97,-87.49
+end_station_id,Destination Station Id,text,5667986,761817,847,4906169,87,13,13022,83648,-,-,-,-,-,-
+end_station_name,Destination Station Name,text,5667986,761817,855,4906169,87,13,Streeter Dr & Grand Ave,83648,-,-,-,-,-,-
+ended_at,Depertature Time,datetime,5667986,0,4740417,5667986,100,0,16-09-2021 08:39,17,01-03-2021 00:06,01-03-2022 08:55,-,-,-,-
+member_casual,"Memebership Type
+-member - Customers who purchase annual memberships are Cyclistic members.
+-Casual - Customers who purchase single-ride or full-day passes are referred as casual riders.",text,5667986,0,2,5667986,100,0,member,3127293,-,-,-,-,-,-
+ride_id,Ride Identifier,text,5667986,0,5667986,5667986,100,0,C809ED75D6160B2A,1,-,-,-,-,-,-
+rideable_type,"Bike Type
+-electric_bike
+-classic_bike
+-docked_bike",text,5667986,0,3,5667986,100,0,classic_bike,3268797,-,-,-,-,-,-
+start_lat,Latitude of Source,numeric,5667986,0,413530,5667986,100,0,-,-,-,-,41.90087901,0.046263524,41.64,45.63503432
+start_lng,Longitude of Source,numeric,5667986,0,392882,5667986,100,0,-,-,-,-,-87.64614322,0.029474434,-87.84,-73.79647696
+start_station_id,Source/Start Station Id,text,5667986,712975,845,4955011,87,13,13022,82954,-,-,-,-,-,-
+start_station_name,Source Station Name,text,5667986,712978,854,4955008,87,13,Streeter Dr & Grand Ave,82954,-,-,-,-,-,-
+started_at,Start time of the ride,datetime,5667986,0,4747127,5667986,100,0,19-07-2021 17:36,7,01-03-2021 00:01,28-02-2022 23:58,-,-,-,-
